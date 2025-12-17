@@ -1,5 +1,5 @@
 {
-    "name": "lracdim/callie-php",
+    "name": "callie-engine/callie-php",
     "description": "A zero-dependency, upload-and-run PHP micro-framework for building REST APIs. Perfect for shared hosting.",
     "keywords": [
         "php",
@@ -12,13 +12,13 @@
         "no-dependencies",
         "callie"
     ],
-    "homepage": "https://github.com/lracdim/callie-php",
+    "homepage": "https://github.com/callie-engine/callie-php",
     "license": "MIT",
     "type": "project",
     "authors": [
         {
-            "name": "lracdim",
-            "homepage": "https://github.com/lracdim"
+            "name": "Callie Engine",
+            "homepage": "https://github.com/callie-engine"
         }
     ],
     "require": {
@@ -45,7 +45,7 @@
         ]
     },
     "support": {
-        "source": "https://github.com/lracdim/callie-php",
-        "issues": "https://github.com/lracdim/callie-php/issues"
+        "source": "https://github.com/callie-engine/callie-php",
+        "issues": "https://github.com/callie-engine/callie-php/issues"
     }
 }
