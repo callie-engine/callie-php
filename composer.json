@@ -1,0 +1,51 @@
+{
+    "name": "lracdim/callie-php",
+    "description": "A zero-dependency, upload-and-run PHP micro-framework for building REST APIs. Perfect for shared hosting.",
+    "keywords": [
+        "php",
+        "framework",
+        "api",
+        "rest",
+        "micro-framework",
+        "mysql",
+        "lightweight",
+        "no-dependencies",
+        "callie"
+    ],
+    "homepage": "https://github.com/lracdim/callie-php",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "lracdim",
+            "homepage": "https://github.com/lracdim"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Callie\\": "core/"
+        },
+        "files": [
+            "core/Callie.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    },
+    "support": {
+        "source": "https://github.com/lracdim/callie-php",
+        "issues": "https://github.com/lracdim/callie-php/issues"
+    }
+}
